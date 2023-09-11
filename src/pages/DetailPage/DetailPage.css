@@ -1,0 +1,124 @@
+
+
+/* Detail Sewa - Start */
+.detail-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 31px;
+    margin-left: 199px;
+    gap: 32px;
+  }
+  
+  
+  /* left */
+  
+  .detail-content-left {
+    width: 605px;
+    flex-shrink: 0;
+    padding: 24px;
+  
+    border-radius: 8px;
+    background: var(--neutral-01, #fff);
+  
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+  
+  .detail-title-left {
+    color: var(--neutral-01, #000);
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  
+  .include {
+    margin-top: 16px;
+  }
+  
+  .include-content {
+    color: var(--neutral-03, #8a8a8a);
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 175%;
+  }
+  
+  .exclude {
+    margin-top: 16px;
+  }
+  
+  .exclude-content {
+    color: var(--neutral-03, #8a8a8a);
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 175%;
+  }
+  
+  .refund {
+    margin-top: 26px;
+  }
+  
+  .refund-content {
+    color: var(--neutral-03, #8a8a8a);
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 175%; /* 24.5px */
+  }
+  
+  
+  /* right */
+  
+  .detail-content-right {
+    width: 405px;
+    height: 435px;
+    flex-shrink: 0;
+    padding: 24px;
+  
+    border-radius: 8px;
+    background: var(--neutral-01, #fff);
+  
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+  
+  .detail-title-right {
+    margin-top: 52px;
+  
+    /* font */
+    color: var(--neutral-01, #000);
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  
+  .detail-capacity-right {
+    color: var(--neutral-03, #8a8a8a);
+    font-family: Arial;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px; /* 140% */
+  }
+  
+  .detail-total-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 55px;
+  
+    /* font */
+    color: var(--neutral-01, #000);
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+  }
+  /* Detail Sewa - End */
