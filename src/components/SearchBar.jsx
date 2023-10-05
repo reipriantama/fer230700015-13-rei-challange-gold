@@ -52,7 +52,7 @@ const SearchBar = () => {
         name: name,
         category: category,
         isRented: status,
-        minprice: minprice,
+        minPrice: minprice,
         maxPrice: maxPrice,
       }).toString(),
     });
